@@ -1,0 +1,97 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('@/assets/contoh.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .loginBox {
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #004085;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .inputGroup i {
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .inputGroup input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .forgotPassword {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .loginButton:hover {
+    background: #0056b3;
+  }
+  
+  .switchLogin {
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+  
+  .switchLogin a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
